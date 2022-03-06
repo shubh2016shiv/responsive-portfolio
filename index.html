@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+     
+     <!-- ICONS -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+ 
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+     <!-- Argon CSS -->
+     <link type="text/css" href="css/argon-design-system.min.css" rel="stylesheet">
+ 
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+ 
+     <!-- Personal  Styling -->
+     <link rel="stylesheet" href="css/style.css">
+     
+     <title>AI Portfolio</title>
+  </head>
+  <body>
+    <!-- ------------- HEADER -------------------->
+    <header class="header" id="header">
+      <nav class="nav container navbar-expand-lg">
+          <a href="#" class="nav__logo navbar-brand ml-3">Shubham Singh</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list grid">
+                  <li class="nav__item">
+                      <a href="#home" class="nav__link">
+                          <i class="uil uil-estate nav__icon"></i>Home
+                      </a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="#about" class="nav__link">
+                          <i class="uil uil-user nav__icon"></i>About
+                      </a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="#skills" class="nav__link">
+                          <i class="uil uil-file nav__icon"></i>Skills
+                      </a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="#qualifications" class="nav__link">
+                          <i class="uil uil-diary nav__icon"></i>Qualification
+                      </a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="#portfolio" class="nav__link">
+                          <i class="uil uil-scenery nav__icon"></i>Portfolio
+                      </a>
+                  </li>
+
+                  <li class="nav__item">
+                      <a href="#contact" class="nav__link">
+                          <i class="uil uil-message nav__icon"></i>Contact Me
+                      </a>
+                  </li>
+              </ul>
+              <i class="uil uil-times nav__close" id="nav-close"></i>
+          </div>
+
+          <div class="nav__btns">
+              <!-- THEME CHANGING BUTTONS -->
+              <i data-mode= "dark" class="uil uil-moon moon-change-theme" id="theme-button"></i>
+
+              <div class="nav__toggle" id="nav-toggle">
+                  <i class="uil uil-apps"></i>
+              </div>
+          </div>
+      </nav>
+    </header>
+
+    <!--============== MAIN ===============-->
+
+    <main class="main">
+    <!-------------------- HOME --------------------->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+
+          <div class="home__content grid">
+              <div class="home__social">
+                  <a href="https://www.linkedin.com/in/shubham-singh-060525108/" target="_blank" class="home__social-icon" id="myLinkedIn">
+                      <i class="uil uil-linkedin-alt"></i>
+                  </a>
+
+                  <a href="https://github.com/shubh2016shiv" target="_blank" class="home__social-icon" id="myGithub">
+                      <i class="uil uil-github-alt"></i>
+                  </a>
+
+              </div>
+          </div>
+
+          <div class="home__data">
+              <small class="home__welcome s-color"> Welcome to my Portfolio Website! </small>
+              <h1 class="home__title"> Hey I'm </h1>
+              <div id="typewriter"></div>
+              <h3 class="home__subtitle" id="home-bio">An Artificial Engineer <br> Impacting humans and businesses one step at a time. </br></h3>
+              <a href="#contact" class="button button--flex">
+                  Contact Me <i class="uil uil-message button__icon"></i>
+              </a>
+          </div>
+
+      </div>
+
+      <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <!-- <span class="home__scroll-name"> Scroll Down </span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i> -->
+          </a>
+      </div>
+    </section>
+
+    <!--------------------ABOUT ME -------------------->
+    <section class="about section" id="about">
+      <h2 class="section__title">About</h2>
+      <span class="section__subtitle"> My Introduction </span>
+
+      <div class="about__container container grid">
+          <img src="img/ceremony.JPG" alt="my achievement photo" class="about__img">
+
+          <div class="about__data">
+              <p class="about__description" id="home-about"> 
+                  Artificial Intelligence Engineer, with Masters degree in AI from Birmingham City University and Post Graduation Certification certification in Data Science from IIT Guwahati.
+                  Formly an application developer at CitiBank India Services Private Limited and have experience in technologies like C#, Python and SQL
+              </p>
+          </div>
+
+          <div class="about__info">
+              <div>
+                  <span class="about__info-title"> 05+ </span>
+                  <span class="about__info-name"> Years <br> Experience </span>
+              </div>
+
+              <div>
+                  <span class="about__info-title"> 10+ </span>
+                  <span class="about__info-name"> Completed <br> Projects </span>
+              </div>
+
+              <div>
+                  <span class="about__info-title"> 02+ </span>
+                  <span class="about__info-name"> Companies <br> Worked </span>
+              </div>
+          </div>
+
+          <div class="about__buttons">
+              <a href="assets/file/CV.pdf" download="my_CV" target="_blank" class="button button--flex">
+                  Download CV <i class="uil uil-download-alt button__icon"></i>
+              </a>
+          </div>
+      </div>
+    </section>
+
+    </section>
+    <!-------------------- SKILLS -------------------->
+    <section class="skills section" id="skills">
+      <h2 class="section__title"> Skillset </h2>
+      <span class="section__subtitle"> My skillsets </span>
+
+      <div class="skills__container container grid">
+
+        <span class="section__subtitle"> <h2>Programming Languages</h2> </span>
+        
+          <div class="row" id="skillset_container">
+            <!-- Skill 5 -->
+
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                  <div class="imgBx">
+                      <img src="https://res.cloudinary.com/bjha/image/upload/v1627831745/skillset%20logos/python-seeklogo.com_sbuevg.svg" alt="HTML logo">
+                  </div>
+                  <div class="contentBx">
+                      <h2> Python </h2>
+                  </div>
+              </div>
+          </div>
+
+
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+                <div class="imgBx">
+                    <img src="img\c-sharp-c-seeklogo.com.svg" alt="c-sharp logo">
+                </div>
+                <div class="contentBx">
+                    <h2> C# </h2>
+                </div>
+            </div>
+        </div>
+
+        <span class="section__subtitle"> <h2>Scientific Computing Libraries</h2> </span>
+
+        <div class="skills__container-card">
+          <div class="card_skill shadow2">
+              <div class="imgBx">
+                  <img src="img\numpy-seeklogo.com.svg" alt="numpy logo">
+              </div>
+              <div class="contentBx">
+                  <h2> Numpy </h2>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="skills__container-card">
+        <div class="card_skill shadow2">
+            <div class="imgBx">
+                <img src="img\pandas-seeklogo.com.svg" alt="pandas logo">
+            </div>
+            <div class="contentBx">
+                <h2> Pandas </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills__container-card">
+      <div class="card_skill shadow2">
+          <div class="imgBx">
+              <img src="img\SCIPY_2.svg" alt="scipy logo">
+          </div>
+          <div class="contentBx">
+              <h2> SciPy </h2>
+          </div>
+      </div>
+  </div>
+
+        <span class="section__subtitle"> <h2>Data Visualization Libraries</h2> </span>
+
+        <div class="skills__container-card">
+          <div class="card_skill shadow2">
+              <div class="imgBx">
+                  <img src="img\Matplotlib_icon.svg" alt="matplotlib logo">
+              </div>
+              <div class="contentBx">
+                  <h2> Matplotlib </h2>
+              </div>
+          </div>
+      </div>
+
+      <div class="skills__container-card">
+        <div class="card_skill shadow2">
+            <div class="imgBx">
+                <img src="img\seaborn.svg" alt="seaborn logo">
+            </div>
+            <div class="contentBx">
+                <h2> Seaborn </h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills__container-card">
+      <div class="card_skill shadow2">
+          <div class="imgBx">
+              <img src="img\plotly.svg" alt="plotly logo">
+          </div>
+          <div class="contentBx">
+              <h2> Plotly </h2>
+          </div>
+      </div>
+  </div>
+
+
+
+        <span class="section__subtitle"> <h2> Machine Learning Libraries and frameworks</h2> </span>
+
+
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+                <div class="imgBx">
+                    <img src="img\scikit-learn-seeklogo.com.svg" alt="sklearn logo">
+                </div>
+                <div class="contentBx">
+                    <h2> Scikit Learn </h2>
+                </div>
+            </div>
+        </div>
+
+
+              <!-- Skill 1 -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="img\tensorflow-seeklogo.com.svg" alt="TensorFlow logo">
+                      </div>
+                      <div class="contentBx">
+                          <h2> TensorFlow </h2>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="img\Keras_logo.svg" alt="keras logo">
+                    </div>
+                    <div class="contentBx">
+                        <h2> Keras </h2>
+                    </div>
+                </div>
+            </div>
+              
+              <!-- Skill 5 -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="img\pytorch-seeklogo.com.svg" alt="Pytorch logo">
+                      </div>
+                      <div class="contentBx">
+                          <h2> Pytorch </h2>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Skill 10 -->
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="img\SpaCy_logo.svg" alt="spacy logo">
+                    </div>
+                    <div class="contentBx">
+                        <h2> Spacy </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__container-card">
+              <div class="card_skill shadow2">
+                  <div class="imgBx">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png" alt="spacy logo">
+                  </div>
+                  <div class="contentBx">
+                      <h2> XGBoost </h2>
+                  </div>
+              </div>
+          </div>
+
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+                <div class="imgBx">
+                    <img src="img\catboost.png" alt="catboost logo">
+                </div>
+                <div class="contentBx">
+                    <h2> CatBoost </h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="skills__container-card">
+          <div class="card_skill shadow2">
+              <div class="imgBx">
+                  <img src="img\pycaret-logo.png" alt="pycaret logo">
+              </div>
+              <div class="contentBx">
+                  <h2> PyCaret </h2>
+              </div>
+          </div>
+      </div>
+
+      <span class="section__subtitle"> <h2> Machine Leaning Lifecyle tools</h2> </span>
+
+          <div class="skills__container-card">
+            <div class="card_skill shadow2">
+                <div class="imgBx">
+                    <img src="img\MLflow-Logo.svg" alt="mlflow logo">
+                </div>
+                <div class="contentBx">
+                    <h2> MLflow </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills__container-card">
+          <div class="card_skill shadow2">
+              <div class="imgBx">
+                  <img src="https://raw.githubusercontent.com/wandb/assets/main/wandb-dots-logo.svg" alt="wandb logo">
+              </div>
+              <div class="contentBx">
+                  <h2> Weights and Bias </h2>
+              </div>
+          </div>
+      </div>
+
+      <span class="section__subtitle"> <h2> Databases</h2> </span>
+              <!-- Skill 6 -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="img\mysql-seeklogo.com.svg" alt="mysql logo">
+                      </div>
+                      <div class="contentBx">
+                          <h2> MySQL </h2>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- Skill 7 -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="img\microsoft-sql-server-seeklogo.com.svg" alt="mssql logo">
+                      </div>
+                      <div class="contentBx">
+                          <h2> MSSQL </h2>
+                      </div>
+                  </div>
+              </div>
+
+              <span class="section__subtitle"> <h2> Development Enviroments</h2> </span>
+
+              <!-- Skill 8 -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="https://res.cloudinary.com/bjha/image/upload/v1627831746/skillset%20logos/visual-studio-code-seeklogo.com_ps85dh.svg" alt="HTML logo">
+                      </div>
+                      <div class="contentBx">
+                          <h2> VS Code </h2>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- Skill 9 -->
+              <div class="skills__container-card">
+                  <div class="card_skill shadow2">
+                      <div class="imgBx">
+                          <img src="img\jupyter-seeklogo.com.svg" alt="jupyter logo">
+                      </div>
+                      <div class="contentBx">
+                          <h2> Jupyter Notebook </h2>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="skills__container-card">
+                <div class="card_skill shadow2">
+                    <div class="imgBx">
+                        <img src="img\pycharm-seeklogo.com.svg" alt="pycharm logo">
+                    </div>
+                    <div class="contentBx">
+                        <h2> Pycharm </h2>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+      </div>
+  </section>
+
+    <!-------------------- QUALIFICATIONS -------------------->
+    <section class="qualification section" id="qualifications">
+      <h2 class="section__title"> Qualification </h2>
+      <span class="section__subtitle"> My persoanl Journey </span>
+
+      <div class="qualification__container container">
+
+          <div class="row mt-lg-0">
+              <!-- Education -->
+              <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="education">
+                  <div class="qualification__button button--flex">
+                      <i class="uil uil-graduation-cap qualification__icon"></i> Education
+                  </div>
+
+                  <div id="education_timeline">
+                      <div class="container py-2">
+
+                          <!-- Timeline item 1 -->
+                          <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          Ongoing
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Master of Science - Artificial Intelligence </h3>
+                                                  <p class="qualification__subtitle"> Birmingham City University, United Kingdom </p>
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Statistics, Data Science, Computer Vision and Natural Language Processing </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <!-- Timeline item 2 -->
+                          <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          Feb, 2021
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Post Graduation Program in Data Science (Online) </h3>
+                                                  <p class="qualification__subtitle"> Indian Institute of Technology, Guwahati </p>
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Statistics, Machine Learning, Advanced Machine Learning, Deep Learning, Natural Language Processing, Big Data, Data Warehouse </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                           <!-- Timeline item 3 -->
+                           <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          Jun, 2016
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Bachelor of Technology - Electronics and Communication Engineering </h3>
+                                                  <p class="qualification__subtitle">National Institute of Technology, Tiruchirappalli</p>
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Data Structures and Algorithms, Statistics theory of Communication, Advanced Mathematics including Linear Algebra and Calculus </p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                           <!-- Timeline item 4 -->
+                           <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+
+                                  <h5>
+                                      <span class="badge qualification__calendar">
+                                          <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                                          MAR, 2012
+                                      </span>
+                                  </h5>
+
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__line"></span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2">
+                                  <div class="card education-card transparent_card mirror-face shadow2">
+                                      <div class="card-body">
+                                          <div class="task">
+                                              <div class="abstract">
+                                                  <h3 class="qualification__title"> Secondary Education </h3>
+                                                  <p class="qualification__subtitle"> Aligarh Muslim University, +2 Boys </p>
+                                              </div>
+                                              <div class="details">
+                                                  <p class="qualification__subtitle"> Physics, Chemistry and Maths </p>
+                                              </div> 
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+
+                           <!-- Timeline item end -->
+                           <div class="row">
+                              <!-- Timeline design -->
+                              <div class="col-auto text-center flex-column d-sm-flex">
+                                  <div class="row h-50 qualification__journey">
+                                      <div class="col">
+                                          <span class="qualification__start">
+                                              <i class="uil uil-rocket qualification__start-icon"></i>
+                                          </span>
+                                      </div>
+                                      <div class="col">&nbsp;</div>
+                                  </div>
+                              </div>
+                              <!-- Timeline content Events -->
+                              <div class="col py-2"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+    <!-- Experience -->
+    <div class="col-lg-6 col-sm-10 col-md-10 mt-2 qualification__content" id="experience">
+      <div class="qualification__button button--flex">
+          <i class="uil uil-briefcase-alt qualification__icon"></i> Experience
+      </div>
+
+      <div id="expreience_timeline">
+          <div class="container py-2">
+              <!-- Timeline item 1 -->
+              <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                          <div class="col">
+                              <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                          <span class="badge qualification__calendar">
+                              <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                              Jul, 2022
+                          </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                          <div class="col">
+                              <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                      </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                              <div class="task">
+                                  <div class="abstract">
+                                      <h3 class="qualification__title"> Citicorp Services India Private Limited</h3>
+                                      <p class="qualification__subtitle"> Application Developer - 2 </p>
+                                  </div>
+                                  <div class="details">
+                                      <p class="qualification__subtitle"> Worked as Application Developer on C# and MSSQL to provide feature and security enhancements on Imaging Workflow application used in 21 EMEA countries. Collaborated with Credit Risk team to build Machine Learning models to identified risk factors and threshold for Loan Defaults using Gradient Boosting models with 85% precision</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+               <!-- Timeline item 2 -->
+               <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                          <div class="col">
+                              <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                      </div>
+
+                      <h5>
+                          <span class="badge qualification__calendar">
+                              <i class="uil uil-calendar-alt qualification__calendar-icon"></i>
+                              Dec, 2019
+                          </span>
+                      </h5>
+
+                      <div class="row h-50 qualification__journey">
+                          <div class="col">
+                              <span class="qualification__line"></span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                      </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2">
+                      <div class="card education-card transparent_card mirror-face shadow2">
+                          <div class="card-body">
+                              <div class="task">
+                                  <div class="abstract">
+                                      <h3 class="qualification__title"> Data Science Internship </h3>
+                                      <p class="qualification__subtitle"> The Sparks Foundation </p>
+                                  </div>
+                                  <div class="details">
+                                      <p class="qualification__subtitle"> Worked on Sentiment Analysis Classification problem using un-supervised clustering </p>
+                                  </div> 
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Timeline item end -->
+              <div class="row">
+                  <!-- Timeline design -->
+                  <div class="col-auto text-center flex-column d-sm-flex">
+                      <div class="row h-50 qualification__journey">
+                          <div class="col">
+                              <span class="qualification__start">
+                                  <i class="uil uil-rocket qualification__start-icon"></i>
+                              </span>
+                          </div>
+                          <div class="col">&nbsp;</div>
+                      </div>
+                  </div>
+                  <!-- Timeline content Events -->
+                  <div class="col py-2"></div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+    </section>
+
+
+    <!-------------------- PORTFOLIO -------------------->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Portfolio</h2>
+      <span class="section__subtitle"> My most recent works </span>
+
+      <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+              
+              <!-- For portfolio item 1 -->
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                      <img src="img\Bio NLP - Topic Modelling_Disease NER_Question Answering.png" alt="bio-nlp">
+                  </div>
+
+                  <div class="blog-slider__content">
+                      <span class="blog-slider__code"> Jan 2022</span>
+                      <div class="blog-slider__title"> <br>[Natural Language Processing]</br> Bio-NLP Question Answering / Topic Modelling / Disease and Gene NER </div>
+                      <div class="blog-slider__text">Streamlit Web application for Question Answering system using Information Retreiver and Extractor, Topic modelling using BERTopic and Named Entity recognition for Diseases, Genes, Protiens and Enzymes using Bio-Medical Data</div>
+                      <a href="https://share.streamlit.io/shubh2016shiv/bio_medical_qa_new/main/app.py" target="_blank" class="button blog-slider__button button--flex"> 
+                          Demo
+                          <i class="uil uil-play button__icon"></i>
+                      </a>
+                      <a href="https://github.com/shubh2016shiv/Bio_Medical_QA_New" target="_blank" class="button blog-slider__button button--flex"> 
+                        GitHub Repo
+                        <i class="uil uil-play button__icon"></i>
+                    </a>
+                  </div>
+              </div>
+
+
+              <!-- For portfolio item 1 -->
+              <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img\japanese nlp.png" alt="bio-nlp">
+                </div>
+
+                <div class="blog-slider__content">
+                    <span class="blog-slider__code"> October 2021</span>
+                    <div class="blog-slider__title"> <br>[Japanese Natural Language Processing (自然言語処理)]</br> Japanese NLP using Transformers </div>
+                    <div class="blog-slider__text">This project demostrates the Japanese NLP (自然言語処理) using hugging face transformers for three main applications - Sentiment Analysis, Text Summarization and Short Text Translation from Japanese to English </div>
+                    <a href="https://huggingface.co/spaces/shubh2014shiv/Japanese_NLP" target="_blank" class="button blog-slider__button button--flex"> 
+                        Demo
+                        <i class="uil uil-play button__icon"></i>
+                    </a>
+                    <a href="https://huggingface.co/spaces/shubh2014shiv/Japanese_NLP/tree/main" target="_blank" class="button blog-slider__button button--flex"> 
+                      GitHub Repo
+                      <i class="uil uil-play button__icon"></i>
+                  </a>
+                </div>
+            </div>
+
+              <!-- For portfolio item 2 -->
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                      <img src="img\japanese OCR and Business Card Label Recgnition.png" alt="japanese OCR">
+                  </div>
+
+                  <div class="blog-slider__content">
+                      <span class="blog-slider__code"> October 2021</span>
+                      <div class="blog-slider__title"><br>[Computer Vision Project] </br>Japanese OCR and Label Detection using YOLO</div>
+                      <div class="blog-slider__text"> Used YOLO-V5 architecture to detect 9 labels on Japanese Business Cards. Also, used Japanese Deep Learning OCR model to identify the text in Japanese. The whole digitized version of Japanese Business Card is outputed in JSON format along with location, label and text</div>
+                      <a href="https://share.streamlit.io/shubh2016shiv/japanese_business_card_recognition_ocr/main/app.py" target="_blank" class="button blog-slider__button button--flex"> 
+                          Demo
+                          <i class="uil uil-play button__icon"></i>
+                      </a>
+                      <a href="https://github.com/shubh2016shiv/japanese_business_card_recognition_ocr" target="_blank" class="button blog-slider__button button--flex"> 
+                        GitHub Repo
+                        <i class="uil uil-play button__icon"></i>
+                    </a>
+                  </div>
+              </div>
+
+              <!-- For portfolio item 3 -->
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                      <img src="img\Ted Talk Reommendations.png" alt="ted talk item">
+                  </div>
+
+                  <div class="blog-slider__content">
+                      <span class="blog-slider__code"> November 2021</span>
+                      <div class="blog-slider__title"> <br>[Recommendation System]</br> TED Talk video recommendations using Content Filtering</div>
+                      <div class="blog-slider__text"> Created web application to demostrate content-filtering based Recommendation System to recommend TED video based on genere or specific tags. TF-IDF is used for feature extraction on Text and Transactional Encoder is used encoding the tags of each TED-Talk. Recommendations are provided based on Cosine Similarity.</div>
+                      <a href="https://share.streamlit.io/shubh2016shiv/tedtalkrecommendations/main/TedRecommendationApp.py" target="_blank" class="button blog-slider__button button--flex"> 
+                          Demo
+                          <i class="uil uil-play button__icon"></i>
+                      </a>
+                      <a href="https://github.com/shubh2016shiv/TEDTalkRecommendations" target="_blank" class="button blog-slider__button button--flex"> 
+                        GitHub Repo
+                        <i class="uil uil-play button__icon"></i>
+                    </a>
+                  </div>
+              </div>
+
+              <!-- For portfolio item 4 -->
+              <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                      <img src="img\Credit risk.png" alt="credit risk item">
+                  </div>
+
+                  <div class="blog-slider__content">
+                      <span class="blog-slider__code"> August 2021</span>
+                      <div class="blog-slider__title"> <br>[Binary Classification on Structured Data]</br> Prediction of Home Loan Default</div>
+                      <div class="blog-slider__text"> Created web application using Streamlit to predict the default on Loans taken on Homes. It demonstrates EDA (Univariate and Multi-Variate), Feature Selection, Feature Exraction, Missing Values handling, Outlier handling. Many models such as Logistic Regression, Random Forest and Gradient Boosting Algorithms are used to compare and predict threshold for Loan Defaults by achieving high precision and accuracy</div>
+                      <a href="https://share.streamlit.io/shubh2016shiv/probability-of-default-prediction/main/probability_of_default_prediction_app.py" target="_blank" class="button blog-slider__button button--flex"> 
+                          Demo
+                          <i class="uil uil-play button__icon"></i>
+                      </a>
+                      <a href="https://github.com/shubh2016shiv/probability-of-default-prediction" target="_blank" class="button blog-slider__button button--flex"> 
+                        GitHub Repo
+                        <i class="uil uil-play button__icon"></i>
+                    </a>
+                  </div>
+              </div>
+              
+              <div class="blog-slider__pagination"></div>
+          </div>
+      </div>
+
+  </section>
+
+    </section>
+    <!-------------------- CONTACT -------------------->
+    <section class="contact section" id="contact">
+      <h2 class="section__title"> Contact Me </h2>
+      <span class="section__subtitle"> Get in touch</span>
+
+      <div class="row mt-lg-6 justify-content-center contact_mail">
+          <!-- Contact information -->
+          <div class="col-lg-6 mx-lg-0 mx-2 contact__container container">
+              <div class="contact__information">
+                  <i class="uil uil-phone contact__icon"></i>
+
+                  <div>
+                      <h3 class="contact__title">Call Me</h3>
+                      <span class="contact__subtitle">+91-9284178914</span>
+                  </div>
+              </div>
+
+              <div class="contact__information">
+                  <i class="uil uil-envelope contact__icon"></i>
+
+                  <div>
+                      <h3 class="contact__title">E-mail</h3>
+                      <span class="contact__subtitle">shubh2014shiv@gmail.com</span>
+                  </div>
+              </div>
+
+              <div class="contact__information">
+                  <i class="uil uil-location-pin-alt contact__icon"></i>
+                  <div>
+                      <h3 class="contact__title">Address</h3>
+                      <span class="contact__subtitle">Aligarh, Uttar Pradesh, India</span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- FORM -->
+          <div class="col-lg-6 pl-lg-4 mt-lg-0 mt-6 contact-form" id="message-me">
+              <h2 class="contact__title"> Interested to work together? - <span> Let's talk </span></h2>
+
+              <form action="#" method="POST" class="cf">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <input type="text" name="message-name" class="form-control form__color mb-30 cf" placeholder="Your Name">
+                      </div> 
+                      <div class="col-lg-6">
+                          <input type="email" name="message-email" class="form-control form__color mb-30 cf" placeholder="Your Email">
+                      </div>
+                      <div class="col-12">
+                          <input type="text" name="message-subject" class="form-control form__color mb-30 cf" placeholder="Subject">
+                      </div>
+                      <div class="col-12">
+                          <textarea name="message" class="form-control form__color mb-30 cf" cols="30" rows="5" placeholder="Your Message"></textarea>
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="button button--flex send-message form_button">
+                              Send Message
+                              <i class="uil uil-message button__icon"></i>
+                          </button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </section>
+
+
+
+    </main>
+    <!-- ------------- FOOTER -------------------->
+    <footer class="footer">
+      <div class="footer__bg">
+          <div class="footer__container container grid">
+
+              <div>
+                  <h1 class="footer__title"> SHUBHAM SINGH </h1>
+                  <span class="footer__subtitle"> Data Scientist and Machine Learning Engineer</span>
+              </div>
+
+              <ul class="footer__links">
+                  <li>
+                      <a href="#about" class="footer__link"> About Me</a>
+                  </li>
+
+                  <li>
+                      <a href="#portfolio" class="footer__link"> My Portfolio</a>
+                  </li>
+
+                  <li>
+                      <a href="#contact" class="footer__link"> Contact Me</a>
+                  </li>
+              </ul>
+
+              <div class="footer__socials">
+                  <a href="" target="_blank" class="footer__social" id="myLinkedIn">
+                      <i class="uil uil-linkedin-alt"></i>
+                  </a>
+
+                  <a href="" target="_blank" class="footer__social" id="myGithub">
+                      <i class="uil uil-github-alt"></i>
+                  </a>
+
+              </div>
+          </div>
+
+      </div>
+    </footer>
+
+<!-- ------------- SCROLL TOP -------------------->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+     <!-- Core -->
+     <script src="js/core/jquery.min.js"></script>
+     <script src="js/core/popper.min.js"></script>
+     <script src="js/core/bootstrap.min.js"></script>
+ 
+     <!-- Argon JS -->
+     <script src="js/argon-design-system.js"></script>
+ 
+     <!--  Typewriter CSS Effect -->
+     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+     
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ 
+     <!-- Self Script -->
+     <script src="js/script.js"></script>
+  </body>
+</html>
